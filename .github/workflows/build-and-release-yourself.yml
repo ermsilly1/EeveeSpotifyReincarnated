@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       ipa_url: https://filebin.net/50ysgzalqu3ixwax/com.spotify.client-9.1.60-Decrypted.ipa
+        description: "URL to a decrypted Spotify IPA"
         default: ""
         required: true
         type: string
