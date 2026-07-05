@@ -3,12 +3,12 @@ name: Create IPA Packages
 on:
   workflow_dispatch:
     inputs:
-      ipa_url: https://filebin.net/50ysgzalqu3ixwax/com.spotify.client-9.1.60-Decrypted.ipa
+      ipa_url:https://filebin.net/50ysgzalqu3ixwax/com.spotify.client-9.1.60-Decrypted.ipa
         description: "URL to a decrypted Spotify IPA"
         default: ""
         required: true
         type: string
-      tweak_url: https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/releases/download/v6.6.6/com.eevee.spotify_6.6.6_iphoneos-arm64.deb
+      tweak_url:https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/releases/download/v6.6.6/com.eevee.spotify_6.6.6_iphoneos-arm64.deb
         description: "URL to a prebuilt EeveeSpotify .deb"
         default: ""
         required: true
